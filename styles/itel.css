@@ -39,7 +39,8 @@
   width: 100%;
   top: clamp(24px, 6vw, 72px);
   z-index: 2;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
+  bottom: 470px;
 }
 
 .slide-text h4 {
@@ -59,8 +60,7 @@
   font-weight: 400;
   font-size: 1rem;
   color: #434343;
-  max-width: 900px;
-  width: min(90%, 900px);
+  width: 75%;
 }
 
 .phone-info {
@@ -70,19 +70,21 @@
   position: absolute;
   z-index: 2;
   width: 100%;
-  bottom: clamp(16px, 4vw, 48px);
+  /* bottom: clamp(16px, 4vw, 48px); */
   padding: 0 1rem;
+
+  top: 500px;
 }
 .info {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  border-radius: 8px;
-  padding: 16px 35px 25px 16px;
+  border-radius: 12px;
+  padding: 16px 30px 25px 24px;
   flex-wrap: wrap;
   background-color: #353535;
-  width: min(980px, 100%);
-  min-height: 130px;
+  width: 62vw;
+  height: 18vh;
   gap: 2rem;
 }
 .info h4 {
@@ -97,7 +99,6 @@
 
 .box {
   min-height: 90px;
-  text-align: center;
 }
 
 @media (max-width: 768px) {
